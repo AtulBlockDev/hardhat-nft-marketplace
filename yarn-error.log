@@ -1,0 +1,52 @@
+Arguments: 
+  /home/atulraj/.nvm/versions/node/v16.14.2/bin/node /home/atulraj/.node/corepack/yarn/1.22.15/bin/yarn.js add dotenv
+
+PATH: 
+  /home/atulraj/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/atulraj/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/techr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/techr/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1/bin:/mnt/c/Users/techr/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "@chainlink/contracts": "^0.6.1",
+      "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+      "@nomiclabs/hardhat-etherscan": "^3.1.7",
+      "@nomiclabs/hardhat-waffle": "^2.0.5",
+      "@pinata/sdk": "^1.1.23",
+      "base64-sol": "^1.1.0",
+      "chai": "^4.3.7",
+      "dotenv": "^16.0.3",
+      "ethereum-waffle": "^4.0.10",
+      "ethers": "5.7.2",
+      "hardhat": "^2.13.0",
+      "hardhat-contract-sizer": "^2.8.0",
+      "hardhat-deploy": "^0.11.25",
+      "hardhat-gas-reporter": "^1.0.9",
+      "path": "^0.12.7",
+      "prettier": "^2.8.7",
+      "prettier-plugin-solidity": "^1.1.3",
+      "solhint": "^3.4.1",
+      "solidity-coverage": "^0.8.2"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
